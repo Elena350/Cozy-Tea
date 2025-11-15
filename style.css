@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  font-family: Helvetica;
+  margin: 0;
+  border: 0;
+  background-image: no-repeat;
+  text-align: center;
+}
+/* The fixed header part */
+.header {
+  display: flex; 
+  position: fixed;
+  background-color: black;
+  height: 69px;
+  width: 1250px; 
+  border-bottom: 1px solid seashell; 
+  align-items: center; 
+  justify-content: space-between;   
+  }
+.logo {  
+  box-sizing: border-box;  
+  margin-left: 10px;
+  height: 50px;
+  width: 150px; 
+ }
+ 
+.right {
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center;
+ width: 400px;
+ text-decoration: underline;
+ font-stretch: condensed;
+ }  
+ /* Our Mission with background picture */
+ .mission { 
+  display: flex;
+  width: 1200px;
+  min-height: 700px;
+  align-items: center;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*4poc0t*_gcl_au*MTAxODMzNTg5NC4xNzU4NDM5MTU0*_ga*MTM2NjY1MTE0OC4xNTk5ODk4MDY4*_ga_3LRZM6TM9L*czE3NjI0MTY3MDkkbzk0MyRnMSR0MTc2MjQxNjk2MiRqNTIkbDAkaDA.) ;
+  background-size: cover; 
+  }
+  .onblack {
+    width: 1200px;
+    background-color: black;       
+    height: 150px;    
+     }
+  /* Tea of the Month part  with 5 pictures*/
+ .month {
+  display: flex;  
+  max-height: 1500px;
+  min-width: 1000px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+ }   
+ .item img {
+  height: 200px;
+  width: 300px;
+  border: 1px solid white;
+ 
+ } 
+.item h4 {
+  margin: 10px;
+  text-align: center;
+}
+.locations {  
+  height: 500px;
+  width: 1200px;    
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1j3vo7d*_gcl_au*MTAxODMzNTg5NC4xNzU4NDM5MTU0*_ga*MTM2NjY1MTE0OC4xNTk5ODk4MDY4*_ga_3LRZM6TM9L*czE3NjI3MTMyNjIkbzk0NCRnMSR0MTc2MjcxMzMzOCRqNjAkbDAkaDA.);  
+  padding-top: 50px;
+ }
+ /* Locations section with the 3 location squares */
+.locs {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 40px;
+}
+.loc {
+  display: inline-block;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;    
+  margin: 0 20px;
+}
+/*contact and copyright segments */
+.contact {
+  height: 200px;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+
+  
+ 
